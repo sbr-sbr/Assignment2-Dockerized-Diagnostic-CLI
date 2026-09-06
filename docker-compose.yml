@@ -1,0 +1,10 @@
+
+services:
+  cli:
+    build: .
+    image: diagnostic
+    tty: true
+    stdin_open: true
+    volumes:
+      - .:/app
+
